@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>French Toast alert system to Discord webhook</title>
+    <meta property="og:title" content="UFTAS to Discord webhook" />
+    <meta property="og:author" content="Aquaticpotato3677" />
+    <meta name="theme-color" content="#a31010">
+
+    <base target="_top">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <style>
+  body{
+    font-family: 'Cabin Sketch', cursive;
+    background-color: #F4EFC8;
+  }
+  #webhook_url {
+    background-color: #A31010;
+    color: white;
+  }
+  a:hover{
+    text-decoration:none;
+  }
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
+  .a {
+    margin:auto;
+    padding: 2.5%;
+    text-align: center;
+    
+  }
+  .b{
+    padding:2% 5% 2% 10%;
+    text-align:center;
+    display: flex;
+  }
+  .c {
+    margin: auto;
+    text-align:center;
+    /* padding: 5%; */
+  }
+  input{
+    line-height:20px;
+  }
+  button{
+    color:black;
+    font-family: 'Cabin Sketch', cursive;
+    /* border:none; */
+    text-decoration:none;
+    font-size:15px;
+  }
+  button:hover{
+    color:limegreen;
+  }
+  #d {
+    background-color: #a31010;
+    color: #f4efc8;
+    padding:2%;
+  }
+  </style>
+  <body>
+    <div class="a">
+      <p>this is a simple Google script that will webhook POST json packages from the <a href="https://www.universalhub.com/french-toast" target='_blank'><em>French Toast Alert System</em></a> designed for Discord embeds to a url of your choice.</p>
+      <div style="border-style: solid; border-width: 1px; border-color: #A31010; margin-left:20%; margin-right:20%;">
+        <p>In Discord, they look roughly like this: (<em>MKH1020 uses light mode</em>)</p>
+        <img src="https://cdn.discordapp.com/attachments/764579472955146271/808693481052307496/unknown.png" alt="discord_screenshot" height="100px"></img>
+      </div>
+      <p> Disclosure: this is a hobby system and was not designed for large scale use, whatever that may mean.</p> 
+    <form action="https://script.google.com/macros/s/AKfycbz6dSddu58ukBP5jdpVd7AD8mfhwOWhGPbW6WRip0qH7ewV7KQIp8CKDg/exec" method="POST">
+    <label for="webhook_url" style="font-size: 30px;"> Webhook URL: </label>
+    <input type="text" id="webhook_url" name="URL" line-height="30px;">
+    <button type="sumbit"><b>Submit</b></button>
+    <!-- <button type="reset" onclick="window.location.assign('https://script.google.com/macros/s/AKfycbw9Ysfwo8tQiN_C1kA9sj6abC2pjRd_P36psCHiadnO/dev')" > Refresh</button> -->
+    </form>
+    <p><em>created by Aquaticpotato3677, some simple stuff and CSS by MKH1020</em></p>
+    <p> <em> we also have a <a href="https://tramreview.com">blog</a>...</em></p>
+    </div>
+    <div class="b">
+      <div class="c"><p>About webhooks:</p>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Webhook">Wikipedia on webhooks</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/POST_(HTTP)">Wikipedia on HTTP POST</a></li>
+        <li><a href="https://discord.com/developers/docs/resources/webhook">Discord documentation on webhooks</a></li></ul></div>
+      <div class="c" id="d"><p>User side stuff:</p>
+      <ul>
+        <li><a href="https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks" style="color: white;">Discord on creating a webhook</a></li>
+        <li>You just need to copy the webhook URL and copy it in the box above.</li>
+        <li>For Universal Hub French Toast explanation, see above link.</li></ul></div>
+    </div>
+  </body>
+</html>
