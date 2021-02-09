@@ -40,10 +40,10 @@ function doPost(e){
   try{
     UrlFetchApp.fetch(url,options);
     PropertiesService.getScriptProperties().setProperty(url,"null");
-    return HtmlService.createHtmlOutputFromFile("goodreturn.html");
+    return HtmlService.createHtmlOutputFromFile("success.html");
   }catch(e){
     Logger.log(url);
-    return HtmlService.createHtmlOutputFromFile("badreturn.html");
+    return HtmlService.createHtmlOutputFromFile("error.html");
   }
 }
 
