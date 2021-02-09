@@ -24,7 +24,7 @@ function clear(){
 }
 
 function doGet(){
-  return HtmlService.createHtmlOutputFromFile("french.html");
+  return HtmlService.createHtmlOutputFromFile("main.html");
 }
 
 function doPost(e){
