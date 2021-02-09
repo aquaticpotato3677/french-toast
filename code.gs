@@ -10,13 +10,13 @@ let toasturls = [
 
 function print(){
   let keys = PropertiesService.getScriptProperties().getKeys();
-  for(let k in keys){
-    Logger.log(keys[k]+":"+PropertiesService.getScriptProperties().getProperty(keys[k]));
+  for(let i=0; i<keys.length; i++){
+    Logger.log(keys[i]+":"+PropertiesService.getScriptProperties().getProperty(keys[i]));
   }
 }
 
 function del(){
-  PropertiesService.getScriptProperties().deleteProperty(PropertiesService.getScriptProperties().getKeys()[1]);
+  PropertiesService.getScriptProperties().deleteProperty(PropertiesService.getScriptProperties().getKeys()[{index}]);
 }
 
 function clear(){
