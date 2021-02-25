@@ -1,4 +1,4 @@
-This is a piece of code designed to run in **Google Apps Script.** It does a simple thing, it reads the XML at [universalhub.com/french.toast](https://universalhub.com/french-toast "A Bostonian light news site"), and formats it into a webhook designed for Discord.
+This is a piece of code designed to run in **Google Apps Script.** It does a simple thing, it reads the XML at [universalhub.com/french-toast](https://universalhub.com/french-toast "A Bostonian light news site"), and formats it into a webhook designed for Discord.
 # TL; DR
 ## Input:
 Discord webhook URL.
