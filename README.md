@@ -5,7 +5,7 @@ Discord webhook URL.
 ## Output:
 Discord embed in said channel.
 ## I want!
-Over [here](https://script.google.com/macros/s/AKfycbyIUWYONy8KSH1nl1F_eL5QyuQr7Fe8URZAzIVriv2nCA-d7mUSaP6ZEOkuZvWw4X8gNQ/exec).
+Over [here](https://script.google.com/macros/s/AKfycbzvhwZ-6L1ysuHg2SYvtQXuePy2Qw3BEUS18WTCtQKSIZnwfRUq8PZDparAhsWUvceqUw/exec).
 ## Why is this a *Google Scripts Site?*
 Because.
 # Too Short; Didn't Read
